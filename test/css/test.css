@@ -1,4 +1,14 @@
 @charset "utf-8";
+body,html{font-size:62.5%;}
+.main {
+    position: absolute;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+    width:7.5rem;
+    left:50%;	  
+    margin-left:-3.75rem;
+    height:auto;	  
+ }
 .header{
     width:100%;
     height:1rem;
@@ -17,15 +27,17 @@
     height:100%;
 }
 .tab ul li{
-    width:1.47rem;
+    width:1.458rem;
     height:100%;
     line-height:0.7rem;
-    border-right:1px solid #ffffff;
-    color:#ffffff;
+    border-right:0.01rem solid #ffffff;
     font-size: 0.3rem;
     text-align: center;
     float:left;
         }
+.tab ul li a{
+    color:#ffffff;
+}
 #slider{
     width:100%;
     height:3.65rem;
@@ -54,7 +66,7 @@
     left:0;
 }
 #slider #ul2 li{
-    width:2.5rem;
+    width:2.44rem;
     height:0.05rem;
     background:rgba(51,51,51,0.5);
     float:left;
@@ -90,7 +102,7 @@
     margin-top:0.56rem;
 }
 .docter .top{
-    border-bottom:1px solid #bdb9b9;
+    border-bottom:0.01rem solid #bdb9b9;
     height:0.52rem;
     position: relative;
 }
@@ -107,7 +119,6 @@
     font-family: "Arial"; 
     color:#bdb9b9;
     padding-left:0.05rem;
-    /* border-left:0.01rem solid #bdb9b9; */
     letter-spacing: 0.01rem;
 }
         
@@ -127,7 +138,7 @@
     height:0.03rem;
     background:#bfbfbf;
     padding-left:0.28rem;
-    bottom:-0.01rem;
+    bottom:-0.02rem;
         
  }
  .docter .box{
@@ -135,7 +146,7 @@
     height:2.6rem;
     margin:0.4rem 0.3rem;
     position: relative;
-    border-bottom: 0.02rem dotted #bdb9b9;
+    border-bottom: 0.01rem dotted #bdb9b9;
  }
  .docter .box ul{
     height:auto;
@@ -153,6 +164,7 @@
 .docter .box ul .right{
     width:4.7rem;
     margin-right:0;
+    height:auto;
 }
 .docter .right .w-left h1{
     font-size: 0.33rem;
@@ -208,12 +220,12 @@
 }
 .box .right h4 span{
     padding: 0.08rem 0.15rem;
-    border:0.02rem solid #00a3ee;
+    border:0.01rem solid #00a3ee;
     margin-right: 0.15rem;
     border-radius: 0.05rem;
 }
 .box .right h4 .w1{
-    border:0.02rem solid #ec6941;
+    border:0.01rem solid #ec6941;
     color:#ec6941; 
 }
 .advanced{
@@ -223,7 +235,7 @@
     margin-top:0.56rem;
 }
 .advanced .top{
-    border-bottom:1px solid #bdb9b9;
+    border-bottom:0.01rem solid #bdb9b9;
     height:0.52rem;
     position: relative;
 }
@@ -240,7 +252,6 @@
     font-family: "Arial"; 
     color:#bdb9b9;
     padding-left:0.05rem;
-    /* border-left:0.01rem solid #bdb9b9; */
     letter-spacing: 0.01rem;
 }
         
@@ -260,7 +271,7 @@
     height:0.03rem;
     background:#bfbfbf;
     padding-left:0.28rem;
-    bottom:-0.01rem;
+    bottom:-0.02rem;
         
  }
 .advanced .infor3{
@@ -312,7 +323,7 @@
     margin-top:0.56rem;
 }
 .red .top{
-    border-bottom:1px solid #bdb9b9;
+    border-bottom:0.01rem solid #bdb9b9;
     height:0.52rem;
     position: relative;
 }
@@ -349,7 +360,7 @@
     height:0.03rem;
     background:#bfbfbf;
     padding-left:0.28rem;
-    bottom:-0.01rem;       
+    bottom:-0.02rem;       
  }
  .red .infor1{
     width:100%;
@@ -410,7 +421,7 @@
 }
 .foot h2 .line1{
     width:1.4rem;
-    height:0.02rem;
+    height:0.01rem;
     position: absolute;
     left:-1.5rem;
     top:0.3rem;
@@ -419,7 +430,7 @@
 }   
 .foot h2 .line{
     width:1.4rem;
-    height:0.02rem;
+    height:0.01rem;
     position: absolute;
     right:-1.5rem;
     top:0.3rem;
@@ -483,7 +494,7 @@
     width:2.65rem;
     height:auto;
     float:right;
-    margin-right:0.4rem;
+    margin-right:0.35rem;
 }
 .foot .logo .right img{
 width:2.7rem;
